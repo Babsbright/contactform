@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<h2>Contact Form</h2>
+<section class="container">
+
+  <div class="image">
+    <img src="images/undraw4.png" alt="">
+      </div>
+    <div class="contain">
+      <h1>Let's work together</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus quod aspernatur dolor quibusdam, esse eaque, vel tempora accusantium iste corrupti fugit reiciendi
+        s ullam incidunt nihil placeat quas minus vero facilis?</p>
+    
+      <form method="POST" action="thanks.html">
+       <div class="wrapper">
+          <div class="row1">
+          <label for="">First Name</label>
+          <input id="firstName" type="text" required>
+          </div>
+    
+          <div  class="row2">
+            <label for="">Last Name</label>
+            <input id="lastName" type="text" required>
+          </div>
+         
+        </div>
+            
+        <div>
+          <label for="Email">Email</label>
+          <br>
+          <input id="email" type="email" required>
+        </div>
+
+        <div>
+          <label for="company">Company</label>
+          <br>
+          <input id="company" type="text" required>
+        </div>
+
+        <div>
+          <label for="phone">Phone</label>
+          <br>
+          <input id="phone" required>
+        </div>
+            
+  
+        <h2>Expected Budget</h2>
+        
+        <br>
+          
+        <input type="radio" >
+        <label name="1">Less than $25K</label> <br>
+        <input type="radio" >
+        <label name="1">$25K - $50K</label> <br>
+        <input type="radio" >
+        <label name="1">$50K - $100K</label> <br>
+        <input type="radio" >
+        <label name="1">$100K+</label> <br>
+      
+        <br>  
+          <label for="how">How did you hear about us?</label>
+          <input type="text" id="how">
+        
+    
+
+ <div  class="btn" >
+  <input type="submit"  onsubmit="window.location.href='thanks.html'" class="submit"  >
+  
+ </div>
+      </div>
+
+</section>
+</body>
+
+<script src="form.js"></script>
+ 
+</html>
